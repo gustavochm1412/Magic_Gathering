@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Body } from '@nestjs/common';
 import { CatsService } from './cats.service';
-import { CreateCatDto } from './dto/create-cat.dto'; // Verifique se o caminho está correto
+import { CreateCatDto } from './dto/create-cat.dto'; // Certifique-se de que o caminho está correto
 
 @Controller('cats')
 export class CatsController {
